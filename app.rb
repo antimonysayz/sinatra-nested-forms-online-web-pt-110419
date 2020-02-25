@@ -12,7 +12,9 @@ module FormsLab
     end
 
     post '/pirates' do
-      "hello"
+
+
+      erb :'pirates/show'
     end
 
   end
