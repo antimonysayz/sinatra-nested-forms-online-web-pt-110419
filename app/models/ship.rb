@@ -5,5 +5,6 @@ class Ship
     @name = params[:name]
     @type = params[:type]
     @booty = params[:booty]
+    @@ships << self
   end
 end
