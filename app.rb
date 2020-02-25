@@ -4,7 +4,7 @@ module FormsLab
   class App < Sinatra::Base
 
     get '/' do
-      'Place Holder Text'
+      erb :root
     end
 
   end
