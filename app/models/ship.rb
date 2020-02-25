@@ -8,4 +8,12 @@ class Ship
     @booty = params[:booty]
     @@ships << self
   end
+
+  def self.all
+    @@ships
+  end
+
+  def self.clear
+    @@ships = []
+  end
 end
