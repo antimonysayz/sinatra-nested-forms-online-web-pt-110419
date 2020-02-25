@@ -13,7 +13,6 @@ class Pirate
   end
 
   def self.clear
-
     @@pirates = []
   end
 
